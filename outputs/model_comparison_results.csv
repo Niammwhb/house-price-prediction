@@ -1,0 +1,5 @@
+,cv_RMSE,test_RMSE,test_MAE,test_R2,best_params
+Linear,31.198,30.579,24.381,0.632,{}
+Ridge,31.197,30.613,24.428,0.631,{'model__alpha': 10}
+Lasso,31.198,30.581,24.385,0.632,{'model__alpha': 0.01}
+ElasticNet,31.196,30.6,24.412,0.631,"{'model__alpha': 0.01, 'model__l1_ratio': 0.2}"
